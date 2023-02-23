@@ -12,8 +12,7 @@ function SignOut() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto">
-                            <button className='btn btn-danger btn-sm' onClick={() => auth.signOut()}>Sign Out</button>
-                            
+                            <a className='nav-link' onClick={() => auth.signOut()}>Sign Out</a>
                         </div>
                     </div>
                 </div>

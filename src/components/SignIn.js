@@ -10,14 +10,12 @@ function SignIn() {
     return (
         <div>
             <div className='container'>
-                <br/>
-                <br/>
                 <h1 className='text-center'>ChatApp</h1>
                 <center>
                     <div className='card mt-3'>
                         <div className='card-body'>
                             <h3>L O G I N</h3>
-                            <button className='btn btn-info btn-sm mt-3' onClick={signInWithGoogle}>Sign In With Google</button>
+                            <a className='btn btn-info btn-sm mt-3' onClick={signInWithGoogle}>Sign In With Google</a>
                         </div>
                     </div>
                 </center>
